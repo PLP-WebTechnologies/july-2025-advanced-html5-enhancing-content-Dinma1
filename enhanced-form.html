@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Student Profile</h1>
+            <ol type="1">
+                <li>Name</li>
+                <li>Registration Number</li>
+                <li>Age</li>
+            </ol>
+        </section>
+        <section>
+            <h1>Student details</h1>
+            <ul type="circle">
+                <li>Amaka John</li>
+                <li>2025/1623GC</li>
+                <li>18</li>
+            </ul>
+            <ul type="circle">
+                <li>Tomothy David</li>
+                <li>2025/1645FB</li>
+                <li>19</li>
+            </ul>
+            <ul type="circle">
+                <li>Joy Michael</li>
+                <li>2025/1687HI</li>
+                <li>18</li>
+            </ul>
+        </section>
+        <section>
+            <h1>Student Remark</h1>
+            <dl>
+                <dt>Amaka John</dt>
+                <dd>A digiligent student. Keep it up!</dd>
+                <dt>Timothy David</dt>
+                <dd>Outstanding Result, Bravo!</dd>
+                <dt>Joy Michael</dt>
+                <dd>Put more efforts, you can do better.</dd>
+            </dl>
+        </section>
+
+        <section>
+            <table border="2px">
+                <thead>
+                    <caption>Student's Data</caption>
+                    <tr>
+                        <th>Name</th>
+                        <th>Registration Number</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Amaka John</td>
+                        <td>2025/1623GC</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>Tomothy David</td>
+                        <td>2025/1645FB</td>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <td>Joy Michael</td>
+                        <td>2025/1687HI</td>
+                        <td>18</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <audio src="./Not a step.mp3" type="audio"></audio>
+        </section>
+        <section>
+            <video controls width="640" height="360">
+                <source src="./DIED OF A BROKEN HEART.mp4" type="mp4">
+            </video>
+        </section>
+
+        <section>
+            <form action="" method="post">
+            <h1 id="send_message">Send Me A Message</h1>
+            <label for="name" class="details">Name</label> <br>
+            <input type="text" id="name" name="name" placeholder="Type Your Name" required> <br> <br>
+
+            <label for="reg.no" class="details">Registration Number</label> <br>
+            <input type="text" id="reg.no" name="email" placeholder="Type Your Registration Number" required> <br><br>
+
+            <select name="Gender" id="gender">
+                <option value="gender">Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option><br><br>
+            </select>
+
+            <label for="message" class="details">Message</label><br>
+            <textarea id="message" name="message" rows="4" placeholder="Type Your Message" required></textarea><br><br>
+
+            <button type="submit" class="submit">SUBMIT</button>
+            </form>
+        </section>
+
+    </main>
+</body>
+</html>
